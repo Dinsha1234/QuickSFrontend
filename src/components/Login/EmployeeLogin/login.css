@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .main-hdr-box {
+    height: 40.75rem;
+    width: 50.438rem;
+    background-color: rgba(51, 84, 0, 0.61);
+    position: relative;
+    top: 37px;
+    left: 45px;
+  }
+  
+  .login-board-main-ttl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 17rem;
+  }
+  
+  .border-head-bold-main-ttl {
+    font-family: "Whisper";
+    color: rgb(0, 70, 0);
+  }
+  
+  .border-head-bold-main-ttl.q {
+    position: absolute;
+    top: 106px;
+    left: 192px;
+    font-size: 128px;
+  }
+  
+  .border-head-nrml-ttl {
+    font-family: "Arima Madurai";
+    font-size: 23px;
+  }
+  
+  .border-head-nrml-ttl.q {
+    position: absolute;
+    top: 205px;
+    left: 270px;
+  }
+  
+  .border-head-bold-main-ttl.s {
+    position: absolute;
+    top: 200px;
+    left: 310px;
+    font-size: 64px;
+  }
+  
+  .border-head-nrml-ttl.s {
+    position: absolute;
+    top: 229px;
+    left: 353px;
+  }
+  
+  .tag-line-p1 {
+    position: absolute;
+    top: 290px;
+    left: 255px;
+    font-size: 24px;
+    font-family: "Tenor Sans";
+    color: white;
+  }
+  
+  .pntrs-tag-line {
+    font-family: "Arima Madurai";
+    font-size: 20px;
+  }
+  
+  .pntrs-tag-line.p1 {
+    position: relative;
+    top: 350px;
+    left: 192px;
+  }
+  
+  .pntrs-tag-line.p2 {
+    position: relative;
+    top: 365px;
+    left: 192px;
+  }
+  
+  .login-hdr-box {
+    height: 33.25rem;
+    width: 45.438rem;
+    background-color: rgba(218, 239, 183, 1);
+    border-radius: 2rem;
+    position: absolute;
+    top: 60px;
+    left: 600px;
+  }
+  
+  .toggle-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    color: rgb(27, 30, 26);
+    cursor: pointer;
+    background-color: rgba(235, 247, 217, 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    width: 25rem;
+    font-size: 16px;
+    position: relative;
+    left: 10rem;
+    top: 2rem;
+    font-family: "Ledger";
+  }
+  
+  .toggle-button .option {
+    padding: 0.5rem 1rem;
+    border-radius: 5rem;
+    transition: background-color 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+  
+  .toggle-button .employee-option {
+    background-color: green;
+    color: beige;
+  }
+  
+  .toggle-button .admin-option {
+    background-color: transparent;
+    color: rgb(27, 30, 26);
+  }
+  
+  .toggle-button.admin .employee-option {
+    background-color: transparent;
+    color: rgb(27, 30, 26);
+  }
+  
+  .toggle-button.admin .admin-option {
+    background-color: green;
+    color: beige;
+  }
+  
+  .main-img-hdr-box {
+    position: absolute;
+    top: 7rem;
+    left: 15rem;
+    height: 274px;
+  }
+  
+  .login-google-authn {
+    position: relative;
+    top: 19rem;
+    left: 13rem;
+    width: 15rem;
+    /* font-size: 14px;
+      font-family:'sans-serif';
+      color: #757575;
+      border-radius: 0.5rem;
+      border: none; */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    height: 3rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: white; */
+  }
+  
+  .login-google-authn-img {
+    position: relative;
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  
+  /* .admn-lgn-btn {
+      
+  } */
+  
+  .login-google {
+    position: absolute;
+    top: 500px; /* Adjust this value as needed */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  

@@ -1,0 +1,172 @@
+.main-header-box {
+  height: 110px;
+  background-color: rgba(51, 84, 0, 0.61);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.food-border-head-bold-main-ttl {
+  font-family: "Whisper";
+  color: rgb(0, 70, 0);
+  position: relative;
+}
+
+.food-border-head-bold-main-ttl.q {
+  position: absolute;
+  top: 5px;
+  left: 192px;
+  font-size: 60px;
+}
+
+.food-border-head-nrml-ttl {
+  font-family: "Arima Madurai";
+  font-size: 25px;
+}
+
+.food-border-head-nrml-ttl.q {
+  position: absolute;
+  top: 45px;
+  left: 235px;
+}
+
+.food-border-head-bold-main-ttl.s {
+  position: absolute;
+  top: 42px;
+  left: 280px;
+  font-size: 54px;
+}
+
+.food-border-head-nrml-ttl.s {
+  position: absolute;
+  top: 65px;
+  left: 307px;
+}
+
+.food-book-order-box-main {
+  height: 100vh;
+  width: 100%;
+  /* top: 10rem;
+  left: 50rem; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.food-book-order-box {
+  height: 80%;
+  width: 80%;
+  max-width: 600px;
+  background-color: rgba(218, 239, 183, 1);
+  border-radius: 1.2rem;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 5%;
+  box-sizing: border-box;
+}
+
+.heading-menu-breakfast {
+  font-family: "Ledger";
+}
+
+.form-class:not(.file-ipt) {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  max-width: 400%;
+  /* align-items: center; */
+}
+
+.form-class input:not(.file-ipt),
+.form-class select:not(.file-ipt),
+.form-class textarea:not(.file-ipt) {
+  border: 1px solid darkolivegreen;
+  height: 2rem;
+  width: 50%;
+  background: transparent;
+  border-radius: 0.2rem;
+  margin-bottom: 1rem;
+  padding: 0 0.5rem;
+}
+
+.form-class input:focus {
+  border: 1px solid darkolivegreen;
+  border-radius: 0.2rem;
+  outline: none;
+}
+
+.form-class label {
+  color: rgba(38, 62, 1, 0.61);
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-class input[type="number"]::-webkit-inner-spin-button,
+.form-class input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form-class input[type="number"] {
+  appearance: textfield;
+}
+
+.food-ordr-btn {
+  align-self: flex-start;
+  height: 2rem;
+  width: 50%;
+  border-radius: 0.5rem;
+  background-color: rgba(0, 145, 0, 0.874);
+  border: none;
+  cursor: pointer;
+  color: white;
+  margin-top: 1rem;
+}
+
+.food-ordr-btn:hover {
+  background-color: rgb(0, 134, 0);
+}
+
+.file-upload {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.file-ipt-label {
+  display: inline-block;
+  /* padding: 8px 12px; */
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.file-ipt {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  display: none;
+}
+
+.custom-file-upload {
+  background: transparent;
+  height: 5rem;
+  width: 50%;
+  cursor: pointer;
+  border: 0.1rem solid rgb(116, 145, 67);
+  border-radius: 0.2rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  font-family: "Ledger";
+  color: rgba(38, 62, 1, 0.61);
+}
